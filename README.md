@@ -5,12 +5,12 @@ L’objectif est de concevoir et développer une plateforme web de gestion d’�
 La plateforme doit offrir une interface intuitive pour répondre aux besoins des organisateurs et des 
 participants :
 
-#1- Organisateurs :
+1- Organisateurs :
 - Créer et configurer des événements (titre, description, lieu, date, capacité, programme).
 - Gérer les inscriptions et les participants.
 - Envoyer des notifications et des rappels.
   
-#2- Participants :
+2- Participants :
 - Parcourir les événements disponibles.
 - S'inscrire et se désinscrire d'un événement.
 - Consulter le programme des sessions et recevoir des notifications.
