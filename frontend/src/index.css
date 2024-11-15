@@ -1,18 +1,33 @@
-/* @import "@relume_io/relume-tailwind/dist/styles.css"; */
+
+/* Import style css relume */
+@import "@relume_io/relume-tailwind/dist/styles.css";
+
+/* Import TailwindCss */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+
+
+/*  My custom css */
+
+/****** Css Hero ******/
+#hero h1{
+  color:black;
+  font-size: 2rem;
+  
+}
+#hero .image-hero{
+  width: 100%;
+  height: 800px;
+  border-radius: 50px 0 50px 0;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
-}
+
+/*============================================= Css About ========================================*/
+/*============================================= Css Events ========================================*/
+/*============================================= Css Temoins ========================================*/
+/*============================================= Css Brands ========================================*/
+/*============================================= Css Contact ========================================*/
+
+

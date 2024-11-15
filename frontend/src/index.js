@@ -1,24 +1,32 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './Hero';
 import reportWebVitals from './reportWebVitals';
-import Header from './Header';
-import About from './About';
-import Layout423 from './Service';
-import Footer from './Footer';
+
+
+import Header from './components/section/header';
+import Hero from './components/section/hero';
+import Footer from './components/section/footer';
+import About from './components/about';
+import Events from './components/events';
+import Brands from './components/brands';
+import Temoins from './components/temoins';
+import Contact from './components/Contact';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Header />
-    <App />
+    <Hero />
+
     <About />
-    <Layout423 />
+    <Events />
+    <Brands />
+    <Temoins />
+    <Contact />
 
 
-    {/* Footer */}
-    <Footer /> 
+    <Footer />
   </React.StrictMode>
 );
 
